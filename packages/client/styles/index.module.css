@@ -1,0 +1,118 @@
+.indexPage {
+  background-color: #f0f2f5;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.indexPageContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.indexPageContent h1 {
+  font-size: 3.5em;
+  color: #1877f2;
+}
+
+.notations {
+  position: relative;
+  left: -10%;
+}
+
+.facebook__desc {
+  position: relative;
+  top: -5vh;
+}
+
+.facebook__desc p {
+  font-size: 1.5em;
+}
+
+.preFormContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.preFormContainer div form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: white;
+  border-radius: 5px;
+  padding: 1em 1em 1.6em 1em;
+  width: 28vw;
+  margin-left: 1em;
+  box-shadow: 0 0 3px 2px rgba(151, 151, 151, 0.322);
+}
+
+.formContainer form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  position: relative;
+  top: -8px;
+}
+
+.formContainer form input {
+  width: 140%;
+  padding: 1em;
+  margin: 1em 0;
+  border-radius: 6px;
+  border: solid 1.3px grey;
+  font-size: 1em;
+}
+
+.formContainer form input:focus {
+  outline: #1877f2;
+  border: solid 1.3px #1877f2;
+}
+
+.formContainer form button {
+  width: 150%;
+  padding: 1em 2.7em;
+  margin: 1em 0;
+  border-radius: 6px;
+  color: white;
+  background-color: #1877f2;
+  border: solid transparent;
+  font-weight: bolder;
+  font-size: 1.2em;
+}
+
+.formContainer a {
+  text-decoration: none;
+  color: #1877f2;
+}
+
+.planB {
+  width: 60%;
+  border-radius: 5px;
+  padding: 1em 2.5em;
+  font-size: 0.9em;
+  font-weight: bold;
+  border: solid transparent;
+  background-color: #42b72a;
+  color: white;
+}
+
+.formContainer hr {
+  width: 90%;
+  max-height: 0.1px;
+  background-color: transparent;
+  border-bottom: solid 0.1px rgba(189, 189, 189, 0.055);
+}
