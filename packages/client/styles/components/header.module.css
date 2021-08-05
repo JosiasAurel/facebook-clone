@@ -65,6 +65,10 @@
   background-color: rgba(163, 163, 163, 0.034);
 }
 
+.searchWithLogo input:focus {
+  outline: none;
+}
+
 .headerSecondPart {
   display: flex;
   flex-direction: row;

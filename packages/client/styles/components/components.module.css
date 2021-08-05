@@ -1,0 +1,38 @@
+.firstSectionCard {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  font-weight: bold;
+  border-radius: 6px;
+}
+
+.firstSectionCard:hover {
+  background-color: rgba(128, 128, 128, 0.178);
+}
+
+.firstSectionCard img {
+  max-width: 30px;
+}
+
+.firstSectionCard p {
+  margin-left: 0.8em;
+}
+
+.notifCircle {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #1877f2;
+}
+
+.firstSectionCard .info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  position: relative;
+  top: -20px;
+  font-size: 0.7em;
+  color: #1877f2;
+}
