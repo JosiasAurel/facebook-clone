@@ -73,6 +73,7 @@
 .secondPageContent {
   position: relative;
   left: 25vw;
+  z-index: -2;
 }
 
 .secondPageContent .statusContainer {
@@ -80,7 +81,6 @@
   flex-direction: row;
   justify-content: space-evenly;
   align-self: center;
-  position: fixed;
 }
 
 .feedContainerCn {
@@ -92,7 +92,7 @@
 }
 
 .feedContainer {
-  margin-top: 15em;
+  margin-top: 2em;
   width: 100%;
   overflow: auto;
 }
@@ -247,7 +247,7 @@
   justify-content: space-between;
   align-items: center;
   width: 60%;
-  padding: 0 2em;
+  padding: 0 2em 2em 2em;
   border-radius: 8px;
   background-color: white;
   box-shadow: 0 0 2px 1px rgba(151, 151, 151, 0.226);
@@ -372,10 +372,35 @@
   max-width: 40px;
 }
 
-.feedPostCommentsComment div {
+.feedPostCommentsComment .commentCn {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+.commentCn span {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.commentCn .commentsAndMisc__ {
+  margin-left: 0.4em;
+  font-size: 0.8em;
+}
+
+.commentCn .commentsAndMisc__ p {
+  font-weight: bold;
+  color: rgba(155, 155, 155, 0.986);
+}
+
+.feedPostCommentsComment .comment__ {
   background-color: rgba(180, 180, 180, 0.192);
-  border-radius: 20px;
-  padding: 0.5em;
+  border-radius: 15px;
+  padding: 0.2em;
+  margin-left: 0.4em;
 }
 
 .feedPostOwnerName {

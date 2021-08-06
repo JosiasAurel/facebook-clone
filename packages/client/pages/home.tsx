@@ -178,10 +178,19 @@ const HomeDashboard: FunctionComponent = (): JSX.Element => {
                                         <div className={styles.feedPostComments}>
                                             <div className={styles.feedPostCommentsComment}>
                                                 <img src="/josias.png" alt="josias" />
-                                                <div>
-                                                    <p className={styles.feedPostOwnerName}>Josias Aurel</p>
-                                                    <span>
-                                                        <p> I mean what if we one day find life on AG149 </p>
+                                                <div className={styles.commentCn}>
+                                                    <div className={styles.comment__}>
+                                                        <p className={styles.feedPostOwnerName}>Josias Aurel</p>
+                                                        <span>
+                                                            <p> I mean what if we one day find life on AG149 </p>
+                                                        </span>
+                                                    </div>
+                                                    <span className={styles.commentsAndMisc__}>
+                                                        <p>Like</p>
+                                                        .
+                                                        <p>Reply</p>
+                                                        .
+                                                        5 h
                                                     </span>
                                                 </div>
                                             </div>
@@ -190,6 +199,8 @@ const HomeDashboard: FunctionComponent = (): JSX.Element => {
 
                                     </div>
                                 </div>
+                            </div>
+                            <div style={{ width: "20px", height: "20px", marginBottom: "5em" }}>
                             </div>
 
                         </div>
