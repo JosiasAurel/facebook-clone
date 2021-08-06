@@ -141,8 +141,21 @@ const HomeDashboard: FunctionComponent = (): JSX.Element => {
                                                 </div>
                                             </div>
                                         </div>
+                                        {/* feed post header */}
 
+                                        {/* Feed post body */}
+                                        <div className={styles.feetPostBody}>
+                                            <img src="/space.jpg" alt="space" />
+                                        </div>
+                                        {/* feed post body end */}
 
+                                        <div className={styles.feedPostStats}>
+                                            <span>
+                                                <h3>👍</h3>
+                                                <p>Mike, Daniel, Simon and 5 others</p>
+                                            </span>
+                                            <p>10 comments</p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
