@@ -73,7 +73,6 @@
 .secondPageContent {
   position: relative;
   left: 25vw;
-  z-index: -2;
 }
 
 .secondPageContent .statusContainer {
