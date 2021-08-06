@@ -7,21 +7,33 @@ interface FirstSectionCardProps {
     image: string
     text: string
     notif?: number
+    over?: boolean
 }
 
-const FirstSectionCard: FunctionComponent<FirstSectionCardProps> = ({ image, text, notif }): JSX.Element => {
+const FirstSectionCard: FunctionComponent<FirstSectionCardProps> = ({ image, text, notif, over }): JSX.Element => {
 
     if (notif) {
         return (
-            <div className={styles.firstSectionCard}>
-                <img style={{ position: "relative", top: "-6px" }} src={image} alt={image.split(".")[0]} />
-                <div>
-                    <p> {text} </p>
-                    <span className={styles.info}>
-                        <div className={styles.notifCircle}>
+            <div className={styles.firstSectionCardCn}>
+                <div className={styles.firstSectionCard}>
+                    <img style={{ position: "relative", top: "-6px" }} src={image} alt={image.split(".")[0]} />
+                    {over ?
+                        <div style={{ position: "relative", left: "-50%" }} className={styles.notfP}>
+                            <p> {text} </p>
+                            <span className={styles.info}>
+                                <div className={styles.notifCircle}>
+                                </div>
+                                <p> {notif} new</p>
+                            </span>
                         </div>
-                        <p> {notif} new</p>
-                    </span>
+                        : <div className={styles.notfP}>
+                            <p> {text} </p>
+                            <span className={styles.info}>
+                                <div className={styles.notifCircle}>
+                                </div>
+                                <p> {notif} new</p>
+                            </span>
+                        </div>}
                 </div>
             </div>
         )
@@ -29,7 +41,7 @@ const FirstSectionCard: FunctionComponent<FirstSectionCardProps> = ({ image, tex
     return (
         <div className={styles.firstSectionCard}>
             <img src={image} alt={image.split(".")[0]} />
-            <p> {text} </p>
+            {over ? <p style={{ position: "relative", left: "-50%" }}> {text} </p> : <p> {text} </p>}
         </div>
     )
 }
