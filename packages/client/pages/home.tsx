@@ -3,6 +3,8 @@ import React, { FunctionComponent } from "react";
 
 import Header from "../components/Header";
 import FirstSectionCard from "../components/FirstSectionCard";
+import AddStatus from "../components/addStatus";
+import Status from "../components/Status";
 
 import styles from "../styles/home.module.css";
 
@@ -11,6 +13,7 @@ const HomeDashboard: FunctionComponent = (): JSX.Element => {
         <div>
             <Header />
             <div className={styles.homePageContent}>
+
                 <div className={styles.firstSectionContaienrCn}>
                     <div className={styles.user___}>
                         <img src="/josias.png" alt="josias" />
@@ -33,6 +36,16 @@ const HomeDashboard: FunctionComponent = (): JSX.Element => {
                             <img src="avatar.svg" alt="avatar" />
                             <p>See More</p>
                         </div>
+                    </div>
+                </div>
+
+                <div className={styles.secondPageContent}>
+                    <div className={styles.statusContainer}>
+                        <AddStatus />
+                        <Status />
+                        <Status />
+                        <Status />
+                        <Status />
                     </div>
                 </div>
             </div>
