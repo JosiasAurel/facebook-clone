@@ -156,6 +156,38 @@ const HomeDashboard: FunctionComponent = (): JSX.Element => {
                                             </span>
                                             <p>10 comments</p>
                                         </div>
+                                        {/* feed post stats end */}
+
+                                        {/* feed post actions */}
+                                        <div className={styles.feesPostActionsCn}>
+                                            <hr />
+                                            <div className={styles.feesPostActions}>
+                                                <span>
+                                                    👍 Like
+                                                </span>
+                                                <span>
+                                                    <img src="/comment.png" alt="comment" /> Comment
+                                                </span>
+                                            </div>
+                                            <hr />
+                                            <p style={{ color: "grey" }}>View 6 more comments</p>
+                                        </div>
+                                        {/* feed post actions end */}
+
+                                        {/* feed post comments */}
+                                        <div className={styles.feedPostComments}>
+                                            <div className={styles.feedPostCommentsComment}>
+                                                <img src="/josias.png" alt="josias" />
+                                                <div>
+                                                    <p className={styles.feedPostOwnerName}>Josias Aurel</p>
+                                                    <span>
+                                                        <p> I mean what if we one day find life on AG149 </p>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        {/* feed post comments end */}
+
                                     </div>
                                 </div>
                             </div>

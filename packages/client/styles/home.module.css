@@ -325,3 +325,60 @@
   justify-content: space-evenly;
   align-items: center;
 }
+
+.feesPostActionsCn {
+  width: 100%;
+}
+
+.feesPostActions {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.feesPostActions span {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.feesPostActions img {
+  max-width: 20px;
+  margin-right: 3px;
+}
+
+.feesPostActionsCn hr {
+  background-color: transparent;
+  max-height: 0;
+}
+
+.feedPostComments {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.feedPostCommentsComment {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.feedPostCommentsComment img {
+  max-width: 40px;
+}
+
+.feedPostCommentsComment div {
+  background-color: rgba(180, 180, 180, 0.192);
+  border-radius: 20px;
+  padding: 0.5em;
+}
+
+.feedPostOwnerName {
+  font-weight: bold;
+  color: black !important;
+}
