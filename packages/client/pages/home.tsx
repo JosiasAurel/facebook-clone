@@ -51,6 +51,7 @@ const HomeDashboard: FunctionComponent = (): JSX.Element => {
                     <div className={styles.feedContainerCn}>
                         <div className={styles.feedContainer}>
 
+                            {/* the input action on mind */}
                             <div className={styles.centerIt}>
                                 <div className={styles.onMindForPost}>
                                     <div className={styles.onMindPostInputs}>
@@ -75,6 +76,7 @@ const HomeDashboard: FunctionComponent = (): JSX.Element => {
                                 </div>
                             </div>
 
+                            {/* The room action and activities */}
                             <div className={styles.centerIt}>
                                 <div className={styles.createRoomAndActives}>
                                     <div className={styles.createRoomAction}>
@@ -106,6 +108,41 @@ const HomeDashboard: FunctionComponent = (): JSX.Element => {
 
                                             </div>
                                         </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            {/* a sample post */}
+                            <div className={styles.centerIt}>
+                                <div className={styles.feedPosts}>
+                                    <div className={styles.feedPostPost}>
+                                        <div className={styles.feedPostHeader}>
+
+                                            {/* user profile and post context */}
+                                            <div className={styles.feedPostHeaderCh__}>
+                                                <img src="/josias.png" alt="josias" />
+                                                <span>
+                                                    <p className={styles.postOwnerName}> Josias Aurel </p>
+                                                    <p className={styles.postLabel}> 16h . OMG .  </p>
+                                                </span>
+                                            </div>
+
+
+                                            {/* menu */}
+                                            <div className={styles.feedPostPostMenu}>
+                                                <div>
+
+                                                </div>
+                                                <div>
+
+                                                </div>
+                                                <div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+
                                     </div>
                                 </div>
                             </div>

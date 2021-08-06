@@ -88,11 +88,13 @@
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  overflow: auto;
 }
 
 .feedContainer {
   margin-top: 15em;
   width: 100%;
+  overflow: auto;
 }
 
 .centerIt {
@@ -229,4 +231,70 @@
   position: relative;
   top: -20px;
   left: 70%;
+}
+
+.feedPosts {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+}
+
+.feedPostPost {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 60%;
+  padding: 0 2em;
+  border-radius: 8px;
+  background-color: white;
+  box-shadow: 0 0 2px 1px rgba(151, 151, 151, 0.226);
+}
+
+.feedPostPost .feedPostHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.feedPostHeaderCh__ {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.feedPostPost .feedPostHeader .postOwnerName {
+  font-weight: bold;
+  font-size: 0.8em;
+}
+
+.feedPostPost .feedPostHeader .postLabel {
+  color: grey;
+  font-size: 0.8em;
+  position: relative;
+  top: -5px;
+}
+
+.feedPostPost .feedPostHeader img {
+  max-width: 40px;
+}
+
+.feedPostPostMenu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.feedPostPostMenu div {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: rgb(71, 71, 71);
+  margin: 0 2px;
 }
