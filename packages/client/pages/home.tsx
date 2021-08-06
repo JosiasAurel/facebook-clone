@@ -75,6 +75,41 @@ const HomeDashboard: FunctionComponent = (): JSX.Element => {
                                 </div>
                             </div>
 
+                            <div className={styles.centerIt}>
+                                <div className={styles.createRoomAndActives}>
+                                    <div className={styles.createRoomAction}>
+                                        <img src="live2.png" alt="create-room" />
+                                        <p>Create Room</p>
+                                    </div>
+                                    <div className={styles.activeActiveUsers}>
+                                        <div className={styles.activeActiveUser}>
+                                            <img src="/josias.png" alt="josias" />
+                                            <div>
+
+                                            </div>
+                                        </div>
+                                        <div className={styles.activeActiveUser}>
+                                            <img src="/josias.png" alt="josias" />
+                                            <div>
+
+                                            </div>
+                                        </div>
+                                        <div className={styles.activeActiveUser}>
+                                            <img src="/josias.png" alt="josias" />
+                                            <div>
+
+                                            </div>
+                                        </div>
+                                        <div className={styles.activeActiveUser}>
+                                            <img src="/josias.png" alt="josias" />
+                                            <div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
                         </div>
                     </div>
 
