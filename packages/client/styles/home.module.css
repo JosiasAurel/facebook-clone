@@ -69,3 +69,15 @@
 .seeMore:hover {
   background-color: rgba(128, 128, 128, 0.178);
 }
+
+.secondPageContent {
+  position: relative;
+  left: 30vw;
+}
+
+.secondPageContent .statusContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-self: center;
+}
