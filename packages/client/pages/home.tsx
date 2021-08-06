@@ -47,6 +47,37 @@ const HomeDashboard: FunctionComponent = (): JSX.Element => {
                         <Status />
                         <Status />
                     </div>
+
+                    <div className={styles.feedContainerCn}>
+                        <div className={styles.feedContainer}>
+
+                            <div className={styles.centerIt}>
+                                <div className={styles.onMindForPost}>
+                                    <div className={styles.onMindPostInputs}>
+                                        <img src="/josias.png" alt="josias" />
+                                        <input type="text" placeholder="What's on your mind, Josias ?" />
+                                    </div>
+                                    <hr />
+                                    <div className={styles.onMindPostOptions}>
+                                        <div className={styles.onMindPostOption}>
+                                            <img src="live.png" alt="live" />
+                                            <p>Live video</p>
+                                        </div>
+                                        <div className={styles.onMindPostOption}>
+                                            <img src="photo.png" alt="photo-video" />
+                                            <p>Photo/Video</p>
+                                        </div>
+                                        <div className={styles.onMindPostOption}>
+                                            <img src="feeling.png" alt="feeling-activity" />
+                                            <p>Feeling/Activity</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>
